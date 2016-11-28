@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordKeyboardView">
+        <attr name="pkvDeleteDrawable" format="reference"/>
+        <attr name="pkvDeleteBackgroundColor" format="color|reference"/>
+    </declare-styleable>
+</resources>
