@@ -6,8 +6,8 @@
 ![img]()
 
 ## 说明：
-PasswordKeyboardView 调用 shuffleKeyboard 即可生成随机的键盘
-更多用法参考下面链接
+- PasswordKeyboardView 调用 shuffleKeyboard 即可生成随机的键盘
+- 更多用法参考下面链接
 
 ## 参考：
 - https://github.com/Jungerr/GridPasswordView
