@@ -52,6 +52,7 @@ public class PasswordView extends RelativeLayout{
         mTitle = (TextView) mView.findViewById(R.id.tv_title);
         mForgetPwd = (TextView) mView.findViewById(R.id.tv_forgetPwd);
         mKeyboard = (PasswordKeyboardView) mView.findViewById(R.id.view_keyboard);
+        //mKeyboard.shuffleKeyboard();
     }
 
     private void initEvent(){
