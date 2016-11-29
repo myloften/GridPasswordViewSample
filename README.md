@@ -2,8 +2,7 @@
 
 ## 仿微信/支付宝的密码输入框效果 带自定义键盘：
 效果图：
-![img](https://github.com/myloften/GridPasswordViewSample/blob/master/example1.png)
-![img](https://github.com/myloften/GridPasswordViewSample/blob/master/example2.png)
+![img](https://github.com/myloften/GridPasswordViewSample/blob/master/example1.png)![img](https://github.com/myloften/GridPasswordViewSample/blob/master/example2.png)
 
 ## 说明：
 - PasswordKeyboardView 调用 shuffleKeyboard 即可生成随机的键盘
