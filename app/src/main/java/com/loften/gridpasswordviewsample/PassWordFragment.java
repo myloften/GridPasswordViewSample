@@ -1,18 +1,23 @@
 package com.loften.gridpasswordviewsample;
 
 
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.BottomSheetDialogFragment;
+import android.support.v4.app.DialogFragment;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.jungly.gridpasswordview.GridPasswordView;
 import com.loften.gridpasswordviewsample.view.PasswordView;
 
-public class PassWordFragment extends BottomSheetDialogFragment {
+//也可继承design中的BottomSheetDialogFragment
+public class PassWordFragment extends DialogFragment {
 
     private PasswordView mPassword;
 
@@ -27,7 +32,9 @@ public class PassWordFragment extends BottomSheetDialogFragment {
         super.onCreate(savedInstanceState);
     }
 
-    /*@Override
+
+    //继承BottomSheetDialogFragment时onStart()可注释掉
+    @Override
     public void onStart() {
         super.onStart();
 
@@ -40,7 +47,7 @@ public class PassWordFragment extends BottomSheetDialogFragment {
         layoutParams.width = (int) (dm.widthPixels);
         win.setAttributes(layoutParams);
 
-    }*/
+    }
 
     @Nullable
     @Override
